@@ -1,0 +1,45 @@
+---
+swagger: "2.0"
+info:
+  version: "0.1"
+  title: "My First API"
+paths:
+  /miasto:
+    get:
+      parameters: []
+      responses:
+        200:
+          description: "wyswietlenie wszystkich zjawisk w miescie"
+        404:
+          description: "brak zasobu"
+    put:
+      parameters: []
+      responses:
+        200:
+          description: "zaktualizowano warunki pogodowe w miescie"
+        404:
+          description: "brak zasobu"
+    delete:
+      parameters: []
+      responses:
+        200:
+          description: "usuniecie miasta"
+        404:
+          description: "brak zasobu"
+  /miasto/zjawisko:
+    get:
+      parameters: []
+      responses:
+        200:
+          description: "wyswietlenie zjawiska w miescie (opady lub temp)"
+        404:
+          description: "brak zasobu"
+  /:
+    post:
+      parameters: []
+      responses:
+        200:
+          description: "dodano miasto i warunki pogodowe"
+        404:
+          description: "brak zasobu"
+definitions: {}

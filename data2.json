@@ -1,0 +1,13 @@
+[{
+		"miasto": "Bialystok",
+		"opady": "100mm",
+		"temperatura": "15c"
+		
+	},
+	{
+		"miasto": "Warszawa",
+		"opady": "90mm",
+		"temperatura": "11c"
+		
+	}
+]
